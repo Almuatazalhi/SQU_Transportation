@@ -33,5 +33,15 @@ namespace SQU_Transportation
             grdMyTranscations.DataSource = dbc.tblMyTable;
             grdMyTranscations.DataBind(); // 
         }
+
+        protected void grdMyTranscations_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void grdMyTranscations_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

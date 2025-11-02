@@ -23,5 +23,8 @@ namespace SQU_Transportation
         public static string strMoveTo = "";
         public static string strDepTime = "";
         public static string strReturnTime = "";
+        public static string strstrBrand = "";
     }
+
+
 }
