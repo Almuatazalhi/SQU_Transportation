@@ -60,6 +60,15 @@ namespace SQU_Transportation
         protected global::System.Web.UI.WebControls.Label lblDestination;
 
         /// <summary>
+        /// lblErrorMsg1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblErrorMsg1;
+
+        /// <summary>
         /// txtFrom control.
         /// </summary>
         /// <remarks>

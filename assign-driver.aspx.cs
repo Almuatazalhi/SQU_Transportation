@@ -12,6 +12,7 @@ namespace SQU_Transportation
     {
         DatabaseConnection dbc = new DatabaseConnection();
         DatabaseOperations dbo = new DatabaseOperations();
+
         static int intRecordCounter;
         static int intRowIndex;
         static DataTable tblDriver = new DataTable();

@@ -38,6 +38,11 @@
                 &nbsp;</td>
         </tr>
         <tr>
+            <td colspan="2">
+                <asp:Label ID="lblErrorMsg1" runat="server" ForeColor="#CC3300" Text="Your Transaction was not successfull please try again !" Visible="False"></asp:Label>
+            </td>
+        </tr>
+        <tr>
             <td style="width: 166px; height: 30px;">From</td>
             <td style="height: 30px">
                 <asp:TextBox ID="txtFrom" runat="server"></asp:TextBox>

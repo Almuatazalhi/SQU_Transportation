@@ -72,6 +72,15 @@ namespace SQU_Transportation
 
         protected void btnSave_Click(object sender, EventArgs e)
         {
+            if (txtFrom.Text.Trim() == "" || txtTo.Text.Trim() == "" ||
+        ddlDepartureTime.Text.Trim() == "" || ddlReturnTime.Text.Trim() == "")
+            {
+                lblErrorMsg1.Visible = true;
+            }
+            else
+            {
+                lblErrorMsg1.Visible = false;
+            }
             int intRecoredCounter;
             dbc.strSql = "SELECT * FROM [REQUSTEDTRIP]";
             dbc.strTableName = "[REQUSTEDTRIP]";
